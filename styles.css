@@ -26,7 +26,7 @@
 }
 #bio {
     /* background-color: purple; */
-    height: 277px;
+    /* height: 277px; */
     display: block;
     margin: 15px;
 }
@@ -38,27 +38,27 @@
         border: 3px solid grey;
     }
 #bio-content {
+    border: 2px dashed green;
     display: inline-block;
     vertical-align: top;
-    height: 30px;
-    width: 349px;
-    margin-left: 10px;
-}
-    #bio-content h3 {
-    display: block;
+    height: 200px;
+    width: 340px;
+    margin-left: 15px;
+    background-color: gainsboro;
     }    
     #bio-content p {
+        widows:     ;
         display: inline-block;
         padding: 5px;
     }
 .whiteHdr {
     color: white;
     background-color: grey;
-    display: inline-block;
+    display: block;
     outline: 1px dashed red;
     padding: 5px;
 }
-.project-box{
+/* .project-box{
     width: 100px;
     height: 200px;
 
@@ -69,5 +69,5 @@
         border: 1px dashed red;
 }
     .project-box ul{
-        display: list-item 
-}
+        display: list-item  */
+/* } */
