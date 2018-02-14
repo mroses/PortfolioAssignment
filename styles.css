@@ -1,11 +1,9 @@
 * {
     margin: 0px;
-    outline: 1px dashed red;
 }
 #wrapper {
     width: 700px;
     margin: 0px auto;
-    border: 1px solid red;
     background-color: purple;
 }
 #header {
@@ -25,8 +23,6 @@
         padding-left: 155px;
 }
 #bio {
-    /* background-color: purple; */
-    /* height: 277px; */
     display: block;
     margin: 15px;
 }
@@ -38,11 +34,10 @@
         border: 3px solid grey;
     }
 #bio-content {
-    border: 2px dashed green;
     display: inline-block;
     vertical-align: top;
-    height: 200px;
-    width: 340px;
+    height: 203px;
+    width: 345px;
     margin-left: 15px;
     background-color: gainsboro;
     }    
@@ -55,19 +50,81 @@
     color: white;
     background-color: grey;
     display: block;
-    outline: 1px dashed red;
     padding: 5px;
 }
-/* .project-box{
-    width: 100px;
-    height: 200px;
+.whiteSubHdr {
+    color: white;
+    background-color: grey;
+    display: block;
+    padding: 5px;
+}
+#main-content {
+    width: 680px;
+    display: block;
+}
 
+.project-box{
+    width: 209px;
+    height: 440px;
+    display: inline-block;
+    background-color: gainsboro;
+    vertical-align: top;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
-    .project-box img{
-        width: 100px;
-        height: 65px;
-        border: 1px dashed red;
+    .project-box ul {
+    padding-left: 5px;
+    margin-top: 20px;
+    padding-top: 10px;
 }
-    .project-box ul{
-        display: list-item  */
-/* } */
+        .project-box ul li {
+        display: inline;
+        list-style-type: none;
+    }
+    .project-box img {
+        width: 200px;
+        height: auto;
+}
+        .project-box li img {
+            width: 35px;
+            display: inline;
+        }
+    .project-box p {
+        font-size: 10pt;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+    .project-box h4 ul{
+        margin-top: 30px;
+    }
+    .project-box button {
+        color: white;
+        background-color: green;
+        border-radius: 5px;
+        border: 1px solid black;     
+        margin-left: 80px;
+        margin-top: 20px;
+        padding: 5px;
+        align-items: center;
+    }
+    #footer {
+        width: 700px;
+        height: 70px;
+        background-color: aliceblue;
+    }
+    #footer p {
+        padding: 5px;
+        margin-left: 241px;
+    }
+    #footer li img {
+        width: 20px;
+        height: auto;
+    }
+    #footer ul li {
+        display: inline;
+        list-style-type: none;
+    }
+    #footer ul {
+        margin-left: 160px;
+        padding-top: 10px;
+    }
