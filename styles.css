@@ -91,11 +91,15 @@
         }
     .project-box p {
         font-size: 10pt;
-        margin-bottom: 15px;
-        padding: 5px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
     }
-    .project-box h4 ul{
-        margin-top: 30px;
+    .project-box h4 {
+        padding: 5px, 10px;
+        vertical-align: top;
+    }
+    .project-box ul{
+        margin-top: 0px;
     }
     .project-box button {
         color: white;
